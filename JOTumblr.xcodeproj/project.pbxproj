@@ -7,8 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		0001EB6D11A38B2300FE942E /* JOTumblrUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001EB6C11A38B2300FE942E /* JOTumblrUser.m */; };
+		0001EB7011A38D9C00FE942E /* JOTumblrLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001EB6F11A38D9C00FE942E /* JOTumblrLog.m */; };
 		00D5D854119A8C35000F5A89 /* JOTumblrPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D5D853119A8C35000F5A89 /* JOTumblrPost.m */; };
-		00D5D85A119A8C5C000F5A89 /* JOTumblrAuthenticate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D5D859119A8C5C000F5A89 /* JOTumblrAuthenticate.m */; };
 		8DD76F9A0486AA7600D96B5E /* JOTumblr.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* JOTumblr.m */; settings = {ATTRIBUTES = (); }; };
 		8DD76F9C0486AA7600D96B5E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 08FB779EFE84155DC02AAC07 /* Foundation.framework */; };
 		8DD76F9F0486AA7600D96B5E /* JOTumblr.1 in CopyFiles */ = {isa = PBXBuildFile; fileRef = C6859EA3029092ED04C91782 /* JOTumblr.1 */; };
@@ -28,10 +29,12 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		0001EB6B11A38B2300FE942E /* JOTumblrUser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrUser.h; sourceTree = "<group>"; };
+		0001EB6C11A38B2300FE942E /* JOTumblrUser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrUser.m; sourceTree = "<group>"; };
+		0001EB6E11A38D9C00FE942E /* JOTumblrLog.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrLog.h; sourceTree = "<group>"; };
+		0001EB6F11A38D9C00FE942E /* JOTumblrLog.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrLog.m; sourceTree = "<group>"; };
 		00D5D852119A8C35000F5A89 /* JOTumblrPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrPost.h; sourceTree = "<group>"; };
 		00D5D853119A8C35000F5A89 /* JOTumblrPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrPost.m; sourceTree = "<group>"; };
-		00D5D858119A8C5C000F5A89 /* JOTumblrAuthenticate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrAuthenticate.h; sourceTree = "<group>"; };
-		00D5D859119A8C5C000F5A89 /* JOTumblrAuthenticate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrAuthenticate.m; sourceTree = "<group>"; };
 		08FB7796FE84155DC02AAC07 /* JOTumblr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblr.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* JOTumblr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblr_Prefix.pch; sourceTree = "<group>"; };
@@ -56,8 +59,10 @@
 			children = (
 				00D5D852119A8C35000F5A89 /* JOTumblrPost.h */,
 				00D5D853119A8C35000F5A89 /* JOTumblrPost.m */,
-				00D5D858119A8C5C000F5A89 /* JOTumblrAuthenticate.h */,
-				00D5D859119A8C5C000F5A89 /* JOTumblrAuthenticate.m */,
+				0001EB6B11A38B2300FE942E /* JOTumblrUser.h */,
+				0001EB6C11A38B2300FE942E /* JOTumblrUser.m */,
+				0001EB6E11A38D9C00FE942E /* JOTumblrLog.h */,
+				0001EB6F11A38D9C00FE942E /* JOTumblrLog.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -152,7 +157,8 @@
 			files = (
 				8DD76F9A0486AA7600D96B5E /* JOTumblr.m in Sources */,
 				00D5D854119A8C35000F5A89 /* JOTumblrPost.m in Sources */,
-				00D5D85A119A8C5C000F5A89 /* JOTumblrAuthenticate.m in Sources */,
+				0001EB6D11A38B2300FE942E /* JOTumblrUser.m in Sources */,
+				0001EB7011A38D9C00FE942E /* JOTumblrLog.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -194,6 +200,7 @@
 				ARCHS = "$(ARCHS_STANDARD_32_64_BIT)";
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_VERSION = com.apple.compilers.llvm.clang.1_0;
 				GCC_WARN_ABOUT_RETURN_TYPE = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				ONLY_ACTIVE_ARCH = YES;

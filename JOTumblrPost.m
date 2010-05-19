@@ -8,7 +8,6 @@
 
 #import "JOTumblrPost.h"
 
-
 @implementation JOTumblrPost
 
 @end

@@ -7,10 +7,8 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JOTumblrAuthenticate.h"
 
 @interface JOTumblrPost : NSObject {
-	JOTumblrAuthenticate *auth;
 	NSString *type;
 	NSDate *date;
 	BOOL private;
