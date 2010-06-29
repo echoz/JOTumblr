@@ -10,6 +10,11 @@
 		0001EB6D11A38B2300FE942E /* JOTumblrUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001EB6C11A38B2300FE942E /* JOTumblrUser.m */; };
 		0001EB7011A38D9C00FE942E /* JOTumblrLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001EB6F11A38D9C00FE942E /* JOTumblrLog.m */; };
 		00D5D854119A8C35000F5A89 /* JOTumblrPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D5D853119A8C35000F5A89 /* JOTumblrPost.m */; };
+		3F89A45C11DA68C500B7264A /* JOTumblrQuotePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A45B11DA68C500B7264A /* JOTumblrQuotePost.m */; };
+		3F89A4B311DA6B7800B7264A /* JOTumblrLinkPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A4B211DA6B7800B7264A /* JOTumblrLinkPost.m */; };
+		3F89A4BD11DA6BDF00B7264A /* JOTumblrConversationPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A4BC11DA6BDF00B7264A /* JOTumblrConversationPost.m */; };
+		3F89A4C011DA6C1E00B7264A /* JOTumblrVideoPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A4BF11DA6C1E00B7264A /* JOTumblrVideoPost.m */; };
+		3F89A4C611DA6C8F00B7264A /* JOTumblrAudioPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A4C511DA6C8F00B7264A /* JOTumblrAudioPost.m */; };
 		3FB6EE9E11DA60DA009C1174 /* JOTumblrRegularPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6EE9D11DA60DA009C1174 /* JOTumblrRegularPost.m */; };
 		3FB6EECC11DA6245009C1174 /* JOTumblrPhotoPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FB6EECB11DA6245009C1174 /* JOTumblrPhotoPost.m */; };
 		8DD76F9A0486AA7600D96B5E /* JOTumblr.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FB7796FE84155DC02AAC07 /* JOTumblr.m */; settings = {ATTRIBUTES = (); }; };
@@ -40,6 +45,16 @@
 		08FB7796FE84155DC02AAC07 /* JOTumblr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblr.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* JOTumblr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblr_Prefix.pch; sourceTree = "<group>"; };
+		3F89A45A11DA68C500B7264A /* JOTumblrQuotePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JOTumblrQuotePost.h; path = Classes/JOTumblrPost/JOTumblrQuotePost.h; sourceTree = SOURCE_ROOT; };
+		3F89A45B11DA68C500B7264A /* JOTumblrQuotePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JOTumblrQuotePost.m; path = Classes/JOTumblrPost/JOTumblrQuotePost.m; sourceTree = SOURCE_ROOT; };
+		3F89A4B111DA6B7800B7264A /* JOTumblrLinkPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrLinkPost.h; sourceTree = "<group>"; };
+		3F89A4B211DA6B7800B7264A /* JOTumblrLinkPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrLinkPost.m; sourceTree = "<group>"; };
+		3F89A4BB11DA6BDF00B7264A /* JOTumblrConversationPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrConversationPost.h; sourceTree = "<group>"; };
+		3F89A4BC11DA6BDF00B7264A /* JOTumblrConversationPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrConversationPost.m; sourceTree = "<group>"; };
+		3F89A4BE11DA6C1E00B7264A /* JOTumblrVideoPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrVideoPost.h; sourceTree = "<group>"; };
+		3F89A4BF11DA6C1E00B7264A /* JOTumblrVideoPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrVideoPost.m; sourceTree = "<group>"; };
+		3F89A4C411DA6C8F00B7264A /* JOTumblrAudioPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrAudioPost.h; sourceTree = "<group>"; };
+		3F89A4C511DA6C8F00B7264A /* JOTumblrAudioPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrAudioPost.m; sourceTree = "<group>"; };
 		3FB6EE9C11DA60DA009C1174 /* JOTumblrRegularPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrRegularPost.h; sourceTree = "<group>"; };
 		3FB6EE9D11DA60DA009C1174 /* JOTumblrRegularPost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblrRegularPost.m; sourceTree = "<group>"; };
 		3FB6EECA11DA6245009C1174 /* JOTumblrPhotoPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrPhotoPost.h; sourceTree = "<group>"; };
@@ -114,10 +129,20 @@
 		3FB6EE9611DA6015009C1174 /* JOTumblrPost */ = {
 			isa = PBXGroup;
 			children = (
+				3F89A45A11DA68C500B7264A /* JOTumblrQuotePost.h */,
+				3F89A45B11DA68C500B7264A /* JOTumblrQuotePost.m */,
 				3FB6EE9C11DA60DA009C1174 /* JOTumblrRegularPost.h */,
 				3FB6EE9D11DA60DA009C1174 /* JOTumblrRegularPost.m */,
 				3FB6EECA11DA6245009C1174 /* JOTumblrPhotoPost.h */,
 				3FB6EECB11DA6245009C1174 /* JOTumblrPhotoPost.m */,
+				3F89A4B111DA6B7800B7264A /* JOTumblrLinkPost.h */,
+				3F89A4B211DA6B7800B7264A /* JOTumblrLinkPost.m */,
+				3F89A4BB11DA6BDF00B7264A /* JOTumblrConversationPost.h */,
+				3F89A4BC11DA6BDF00B7264A /* JOTumblrConversationPost.m */,
+				3F89A4BE11DA6C1E00B7264A /* JOTumblrVideoPost.h */,
+				3F89A4BF11DA6C1E00B7264A /* JOTumblrVideoPost.m */,
+				3F89A4C411DA6C8F00B7264A /* JOTumblrAudioPost.h */,
+				3F89A4C511DA6C8F00B7264A /* JOTumblrAudioPost.m */,
 			);
 			name = JOTumblrPost;
 			path = Classes/JOTumblrPost;
@@ -180,6 +205,11 @@
 				0001EB7011A38D9C00FE942E /* JOTumblrLog.m in Sources */,
 				3FB6EE9E11DA60DA009C1174 /* JOTumblrRegularPost.m in Sources */,
 				3FB6EECC11DA6245009C1174 /* JOTumblrPhotoPost.m in Sources */,
+				3F89A45C11DA68C500B7264A /* JOTumblrQuotePost.m in Sources */,
+				3F89A4B311DA6B7800B7264A /* JOTumblrLinkPost.m in Sources */,
+				3F89A4BD11DA6BDF00B7264A /* JOTumblrConversationPost.m in Sources */,
+				3F89A4C011DA6C1E00B7264A /* JOTumblrVideoPost.m in Sources */,
+				3F89A4C611DA6C8F00B7264A /* JOTumblrAudioPost.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

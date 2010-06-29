@@ -10,6 +10,5 @@
 
 
 @implementation JOTumblrPhotoPost
-@synthesize title;
-
+@synthesize data, source, caption, clickThroughURL;
 @end

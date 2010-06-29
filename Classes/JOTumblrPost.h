@@ -26,18 +26,6 @@
 
 	NSString *state;					// the state the post is in
 	BOOL sendToTwitter;					// only for new posts
-
-	/*
-	 * Post Specific API ivars
-	 * 
-	 * These ivars are shared between the various post types
-	 *
-	 */
-	
-	NSString *title; 
-	NSString *body;
-	NSData *data;
-	NSString *url;
 	
 }
 

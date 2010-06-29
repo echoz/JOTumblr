@@ -1,5 +1,5 @@
 //
-//  JOTumblrRegularPost.h
+//  JOTumblrConversationPost.h
 //  JOTumblr
 //
 //  Created by Jeremy Foo on 6/30/10.
@@ -9,13 +9,12 @@
 #import <Foundation/Foundation.h>
 #import "JOTumblrPost.h"
 
-@interface JOTumblrRegularPost : JOTumblrPost {
+@interface JOTumblrConversationPost : JOTumblrPost {
 	NSString *title;
-	NSString *body;
-
+	NSString *conversation;
 }
 
 @property (nonatomic, retain) NSString *title;
-@property (nonatomic, retain) NSString *body;
+@property (nonatomic, retain) NSString *conversation;
 
 @end

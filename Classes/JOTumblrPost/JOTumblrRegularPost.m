@@ -10,7 +10,6 @@
 
 
 @implementation JOTumblrRegularPost
-
 @synthesize title, body;
 
 @end

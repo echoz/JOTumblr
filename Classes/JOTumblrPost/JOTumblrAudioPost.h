@@ -1,5 +1,5 @@
 //
-//  JOTumblrPhotoPost.h
+//  JOTumblrAudioPost.h
 //  JOTumblr
 //
 //  Created by Jeremy Foo on 6/30/10.
@@ -7,16 +7,16 @@
 //
 
 #import <Foundation/Foundation.h>
-#import "JOTumblrPost.h"
 
-@interface JOTumblrPhotoPost : JOTumblrPost {
-	NSString *source;
+
+@interface JOTumblrAudioPost : NSObject {
 	NSString *caption;
-	NSString *clickThroughURL;
 	NSData *data;
+	NSString *externallyHostedURL;
 }
-@property (nonatomic, retain) NSString *source;
+
 @property (nonatomic, retain) NSString *caption;
 @property (nonatomic, retain) NSData *data;
-@property (nonatomic, retain) NSString *clickThroughURL;
+@property (nonatomic, retain) NSString *externallyHostedURL;
+
 @end

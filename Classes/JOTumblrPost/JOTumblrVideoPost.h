@@ -1,5 +1,5 @@
 //
-//  JOTumblrPhotoPost.h
+//  JOTumblrVideoPost.h
 //  JOTumblr
 //
 //  Created by Jeremy Foo on 6/30/10.
@@ -9,14 +9,16 @@
 #import <Foundation/Foundation.h>
 #import "JOTumblrPost.h"
 
-@interface JOTumblrPhotoPost : JOTumblrPost {
-	NSString *source;
+@interface JOTumblrVideoPost : JOTumblrPost {
+	NSString *title;
 	NSString *caption;
-	NSString *clickThroughURL;
 	NSData *data;
+	NSString *embed;
 }
-@property (nonatomic, retain) NSString *source;
+
+@property (nonatomic, retain) NSString *title;
 @property (nonatomic, retain) NSString *caption;
+@property (nonatomic, retain) NSString *embed;
 @property (nonatomic, retain) NSData *data;
-@property (nonatomic, retain) NSString *clickThroughURL;
+
 @end
