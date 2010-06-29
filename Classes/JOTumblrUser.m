@@ -3,7 +3,7 @@
 //  JOTumblr
 //
 //  Created by Jeremy Foo on 5/19/10.
-//  Copyright 2010 __MyCompanyName__. All rights reserved.
+//  Copyright 2010 ORNYX. All rights reserved.
 //
 
 #import "JOTumblrUser.h"
@@ -20,6 +20,9 @@ static NSString *auth_endpoint = @"http://www.tumblr.com/api/authenticate";
 	return self;
 }
 
+-(BOOL)isValid {
+	return YES;
+}
 
 
 @end
