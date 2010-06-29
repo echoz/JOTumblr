@@ -10,5 +10,5 @@
 
 
 @implementation JOTumblrAudioPost
-@synthesize caption, data, externallyHostedURL;
+@synthesize caption, data, externallyHostedURL, plays;
 @end

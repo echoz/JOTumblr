@@ -7,7 +7,7 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "JOTumblrPost.h"
 
 @interface JOTumblrQuotePost : NSObject {
 	NSString *source;

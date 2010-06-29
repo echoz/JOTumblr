@@ -7,16 +7,18 @@
 //
 
 #import <Foundation/Foundation.h>
-
+#import "JOTumblrPost.h"
 
 @interface JOTumblrAudioPost : NSObject {
 	NSString *caption;
 	NSData *data;
 	NSString *externallyHostedURL;
+	NSUInteger plays;
 }
 
 @property (nonatomic, retain) NSString *caption;
 @property (nonatomic, retain) NSData *data;
 @property (nonatomic, retain) NSString *externallyHostedURL;
+@property (readonly) NSUInteger plays;
 
 @end
