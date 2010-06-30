@@ -1,0 +1,3 @@
+[submodule "MWFeedParser"]
+	path = MWFeedParser
+	url = http://github.com/mwaterfall/MWFeedParser.git
