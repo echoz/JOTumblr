@@ -9,10 +9,10 @@
 #import <Foundation/Foundation.h>
 #import "JOTumblrPost.h"
 
-@interface JOTumblrRegularPost : JOTumblrPost {
+@interface JOTumblrRegularPost : JOTumblrPost <NSXMLParserDelegate> {
 	NSString *title;
 	NSString *body;
-
+	
 }
 
 @property (nonatomic, retain) NSString *title;

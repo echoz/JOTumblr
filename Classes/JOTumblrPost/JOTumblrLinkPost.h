@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "JOTumblrPost.h"
 
-@interface JOTumblrLinkPost : JOTumblrPost {
+@interface JOTumblrLinkPost : JOTumblrPost <NSXMLParserDelegate> {
 	NSString *name;
 	NSString *description;
 	NSString *url;

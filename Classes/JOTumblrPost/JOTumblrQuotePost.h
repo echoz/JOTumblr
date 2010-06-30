@@ -9,7 +9,7 @@
 #import <Foundation/Foundation.h>
 #import "JOTumblrPost.h"
 
-@interface JOTumblrQuotePost : NSObject {
+@interface JOTumblrQuotePost : JOTumblrPost <NSXMLParserDelegate> {
 	NSString *source;
 	NSString *quote;
 }
