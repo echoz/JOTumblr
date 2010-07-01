@@ -11,17 +11,13 @@
 
 
 @interface JOTumblrUser : NSObject {
-	NSString *email;
 	NSDictionary *capabilities;
 	NSArray *tumblelogs;
-	JOTumblrLog *primary;
+	NSUInteger maxVideoBytesUploaded;
 }
-@property (readonly, retain) NSDictionary *capabilities;
-@property (readonly, retain) NSArray *tumblelogs;
-@property (readonly, retain) JOTumblrLog *primary;
-@property (nonatomic, retain) NSString *email;
+@property (readonly) NSDictionary *capabilities;
+@property (readonly) NSArray *tumblelogs;
+@property (readonly) NSUInteger maxVideoBytesUploaded;
 
--(id)initWithEmail:(NSString *)iemail password:(NSString *)ipass;
--(BOOL)isValid;
 
 @end

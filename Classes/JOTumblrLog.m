@@ -10,5 +10,7 @@
 
 
 @implementation JOTumblrLog
+@synthesize title, name, url, avatarURL, primary, description, customCSS, themeSource;
+@synthesize timezone, cname;
 
 @end

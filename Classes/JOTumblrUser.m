@@ -8,21 +8,8 @@
 
 #import "JOTumblrUser.h"
 
-static NSString *auth_endpoint = @"http://www.tumblr.com/api/authenticate";
-
 @implementation JOTumblrUser
-@synthesize tumblelogs, capabilities, primary, email;
-
--(id)initWithEmail:(NSString *)iemail password:(NSString *)ipass {
-	if (self = [super init]) {
-		self.email = iemail;
-	}
-	return self;
-}
-
--(BOOL)isValid {
-	return YES;
-}
+@synthesize capabilities, tumblelogs, maxVideoBytesUploaded;
 
 
 @end
