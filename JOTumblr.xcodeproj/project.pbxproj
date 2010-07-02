@@ -10,6 +10,7 @@
 		0001EB6D11A38B2300FE942E /* JOTumblrUser.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001EB6C11A38B2300FE942E /* JOTumblrUser.m */; };
 		0001EB7011A38D9C00FE942E /* JOTumblrLog.m in Sources */ = {isa = PBXBuildFile; fileRef = 0001EB6F11A38D9C00FE942E /* JOTumblrLog.m */; };
 		00D5D854119A8C35000F5A89 /* JOTumblrPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 00D5D853119A8C35000F5A89 /* JOTumblrPost.m */; };
+		3F35171111DB9E73007EB308 /* NSString+XMLEntities.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F35171011DB9E73007EB308 /* NSString+XMLEntities.m */; };
 		3F89A45C11DA68C500B7264A /* JOTumblrQuotePost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A45B11DA68C500B7264A /* JOTumblrQuotePost.m */; };
 		3F89A4B311DA6B7800B7264A /* JOTumblrLinkPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A4B211DA6B7800B7264A /* JOTumblrLinkPost.m */; };
 		3F89A4BD11DA6BDF00B7264A /* JOTumblrConversationPost.m in Sources */ = {isa = PBXBuildFile; fileRef = 3F89A4BC11DA6BDF00B7264A /* JOTumblrConversationPost.m */; };
@@ -45,6 +46,8 @@
 		08FB7796FE84155DC02AAC07 /* JOTumblr.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JOTumblr.m; sourceTree = "<group>"; };
 		08FB779EFE84155DC02AAC07 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = /System/Library/Frameworks/Foundation.framework; sourceTree = "<absolute>"; };
 		32A70AAB03705E1F00C91783 /* JOTumblr_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblr_Prefix.pch; sourceTree = "<group>"; };
+		3F35170F11DB9E73007EB308 /* NSString+XMLEntities.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "NSString+XMLEntities.h"; path = "MWFeedParser/Classes/NSString+XMLEntities.h"; sourceTree = SOURCE_ROOT; };
+		3F35171011DB9E73007EB308 /* NSString+XMLEntities.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "NSString+XMLEntities.m"; path = "MWFeedParser/Classes/NSString+XMLEntities.m"; sourceTree = SOURCE_ROOT; };
 		3F89A45A11DA68C500B7264A /* JOTumblrQuotePost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = JOTumblrQuotePost.h; path = Classes/JOTumblrPost/JOTumblrQuotePost.h; sourceTree = SOURCE_ROOT; };
 		3F89A45B11DA68C500B7264A /* JOTumblrQuotePost.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = JOTumblrQuotePost.m; path = Classes/JOTumblrPost/JOTumblrQuotePost.m; sourceTree = SOURCE_ROOT; };
 		3F89A4B111DA6B7800B7264A /* JOTumblrLinkPost.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JOTumblrLinkPost.h; sourceTree = "<group>"; };
@@ -92,6 +95,7 @@
 		08FB7794FE84155DC02AAC07 /* JOTumblr */ = {
 			isa = PBXGroup;
 			children = (
+				3F35170711DB9E0B007EB308 /* External */,
 				00D5D855119A8C3A000F5A89 /* Classes */,
 				08FB7795FE84155DC02AAC07 /* Source */,
 				C6859EA2029092E104C91782 /* Documentation */,
@@ -124,6 +128,15 @@
 				8DD76FA10486AA7600D96B5E /* JOTumblr */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		3F35170711DB9E0B007EB308 /* External */ = {
+			isa = PBXGroup;
+			children = (
+				3F35170F11DB9E73007EB308 /* NSString+XMLEntities.h */,
+				3F35171011DB9E73007EB308 /* NSString+XMLEntities.m */,
+			);
+			name = External;
 			sourceTree = "<group>";
 		};
 		3FB6EE9611DA6015009C1174 /* JOTumblrPost */ = {
@@ -210,6 +223,7 @@
 				3F89A4BD11DA6BDF00B7264A /* JOTumblrConversationPost.m in Sources */,
 				3F89A4C011DA6C1E00B7264A /* JOTumblrVideoPost.m in Sources */,
 				3F89A4C611DA6C8F00B7264A /* JOTumblrAudioPost.m in Sources */,
+				3F35171111DB9E73007EB308 /* NSString+XMLEntities.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
